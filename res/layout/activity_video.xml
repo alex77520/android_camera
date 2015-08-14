@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0606" >
+
+    <Button
+        android:id="@+id/bt_gaoqing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:background="@drawable/bt_gaoqing"
+        android:text="高清" />
+
+    <Button
+        android:id="@+id/bt_biaoqing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bt_gaoqing"
+         android:background="@drawable/bt_biaoqing"
+        android:text="标清" />
+
+    <Button
+        android:id="@+id/bt_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bt_biaoqing"
+        android:background="@drawable/bt_play"
+        android:text="播放视频" />
+
+</RelativeLayout>

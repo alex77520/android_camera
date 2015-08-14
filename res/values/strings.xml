@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Camera</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- bt_photo按钮的颜色变化 -->
+    <drawable name="bt_photo_clr_normal">#ff6501</drawable>
+    <drawable name="bt_photo_clr_pressed">#a44100</drawable>
+     <!-- bt_video按钮的颜色变化 -->
+    <drawable name="bt_video_clr_normal">#005EFF</drawable>
+    <drawable name="bt_video_clr_pressed">#7987DF</drawable>
+    <!-- bt_takephoto按钮的颜色变化 -->
+    <drawable name="bt_takephoto_clr_normal">#23B0E3</drawable>
+    <drawable name="bt_takephoto_clr_pressed">#86ACE5</drawable>
+     <!-- bt_高清按钮的颜色变化 -->
+    <drawable name="bt_gaoqing_clr_normal">#00DEFF</drawable>
+    <drawable name="bt_gaoqing_clr_pressed">#8DFDD0</drawable>
+     <!-- bt_biaoqing按钮的颜色变化 -->
+    <drawable name="bt_biaoqing_clr_normal">#005EFF</drawable>
+    <drawable name="bt_biaoqing_clr_pressed">#8D70DB</drawable>
+    <!-- bt_play按钮的颜色变化 -->
+    <drawable name="bt_play_clr_normal">#00FF55</drawable>
+    <drawable name="bt_play_clr_pressed">#ADF77C</drawable>
+
+</resources>
